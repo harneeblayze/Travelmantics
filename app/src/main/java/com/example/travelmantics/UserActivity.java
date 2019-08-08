@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.firebase.ui.auth.AuthUI;
@@ -27,6 +28,7 @@ public class UserActivity extends AppCompatActivity {
     private FirebaseDatabase mFirebaseDatabase;
     private DatabaseReference mDatabaseReference;
     private ChildEventListener mChildEventListener;
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
